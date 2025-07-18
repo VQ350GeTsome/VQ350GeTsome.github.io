@@ -1,0 +1,44 @@
+html, body {
+  margin : 0;
+  padding : 0;
+  overflow : hidden;
+  height : 100%;
+  background : black;
+}
+
+canvas {
+  display : block;
+  width : 100vw;
+  height : 100vh;
+}
+
+.controlPanel {
+  display : flex;
+  align-items : center;
+  gap : 10px;
+  margin : 10px;
+  position : absolute;
+  top : 10px;
+  left : 10px;
+  z-index : 5;
+}
+
+.sliderBox {
+  background-color : rgb(207, 207, 207);
+  border-radius : 5px;
+  display : flex;
+  align-items : center;
+  gap : 5px;
+}
+
+.sliderBox label {
+  color: white;
+}
+
+.inputBox {
+  background-color : rgb(207, 207, 207);
+  border-radius : 5px;
+  display : flex;
+  align-items : center;
+  gap: 5px;
+}

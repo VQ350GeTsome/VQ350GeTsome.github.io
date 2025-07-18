@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>Noise Generator</title>
+  <script src="js.js" defer></script>
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+  <div class = "controlPanel">
+
+    <button id="refreshNoise">Refresh Noise</button>
+    <button id="pausePlay">Pause / Play</button>
+
+    <div class = "sliderBox">
+
+      <input type = "range" id = "radiusSlider" name = "Radius" min = "0" max = "150"/>
+      <label for = "radiusSlider" style = "color : rgb(0, 0, 0);">Radius</label>
+
+      <input type = "range" id = "pointsSlider" name = "Bulbs" min = "0" max = "100"/>
+      <label for = "pointsSlider" style = "color : black;">Bulbs</label>
+      
+    </div>
+
+    <div class = "inputBox">
+
+      <input type = "number" id = "nthDist" name = "nthNumber" min = "0" max = "25"/>
+      <label for = "nthDist" style = "color : black;">nth Back</label>
+      
+    </div>
+
+</div>
+
+  <canvas id="noiseCanvas"></canvas>
+
+</body>
+
+
+</html>
