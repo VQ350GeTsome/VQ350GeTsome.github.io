@@ -1,0 +1,27 @@
+html, body {
+  margin : 0;
+  padding : 0;
+}
+
+.second {
+  margin-left: 1;
+  color: rgb(000,000,000);
+}
+
+.second-button {
+  margin-left: 1em;         
+  text-decoration: underline;  
+  color: rgb(255,000,255);  
+}
+.second-button:hover {
+  color: rgb(150,050,150);             
+}
+
+.third-button {
+  margin-left: 2em;         
+  text-decoration: underline;  
+  color: rgb(255,000,255);  
+}
+.third-button:hover {
+  color: rgb(150,050,150);             
+}
